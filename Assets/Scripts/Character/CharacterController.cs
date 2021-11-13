@@ -4,10 +4,21 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
+    public static CharacterController Instance { get; private set; }
+
+    public Dialogue targetDialog;
+    public Dialogue TargetDialog {
+        get => targetDialog;
+        set
+        {
+            targetDialog = value;
+        }
+    }
     [SerializeField] float moveSpeed;
     Vector3 forward, right;
     void Start()
     {
+        Instance = this;
         forward = Camera.main.transform.forward;
         forward.y = 0;
         forward = Vector3.Normalize(forward);
@@ -20,6 +31,11 @@ public class CharacterController : MonoBehaviour
         if (Input.anyKey && !DialogDisplay.Instance.IsActive)
         {
             Move();
+        }
+        if(Input.GetKeyDown(KeyCode.E) && !DialogDisplay.Instance.IsActive)
+        {
+            DialogDisplay.Instance.dialogue = this.targetDialog;
+            DialogDisplay.Instance.Show();
         }
     }
 

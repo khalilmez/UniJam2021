@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterDialog : MonoBehaviour
 {
     [SerializeField]
-    private Dialogue dialogue;
+    public Dialogue dialogue;
 
     private void OnTriggerEnter(Collider other)
     {
