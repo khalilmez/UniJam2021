@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: Ivrogne7
+  m_EditorClassIdentifier: 
+  title: suite
+  description: " \u2026 Il m\u2019a dit que la taverne fermait et qu\u2019il fallait
+    que je parte ! Moi je me chuis \xE9nerv\xE9, je voulais pas partir, alors il
+    m\u2019a dit \u2013 il m\u2019a dit \xAB chi tu cherches du rhum, va dans la
+    rue, les tonneaux en chont pleins \xBB\u2026 "
+  choices:
+  - {fileID: 11400000, guid: cf2765d4f27978648b6a2f3d1fe71a01, type: 2}
+  - {fileID: 11400000, guid: f514206096f24d0489d55f1623683aa5, type: 2}
+  isKeyDialog: 0
+  isEndDialog: 0
+  characterIndex: 8
+  id: 0

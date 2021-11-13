@@ -30,7 +30,7 @@ public class DialogDisplay : MonoBehaviour
 
     public void Show()
     {
-        canvas.transform.GetChild(0).GetComponent<Image>().sprite = characterFace;
+        //canvas.transform.GetChild(0).GetComponent<Image>().sprite = characterFace;
         description.text = dialogue.description;
         if (dialogue.isKeyDialog)
         {

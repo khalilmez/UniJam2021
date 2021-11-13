@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: Ivrogne8
+  m_EditorClassIdentifier: 
+  title: suite
+  description: " \u2026 Mais moi je chuis pas chtupide, je chavais que ch\u2019\xE9tais
+    pas pochible que tous les tonneaux choient plein de rhum ! Je chavais que chi
+    des tonneaux avaient du rhum che cheraient cheux devant les tavernes ! Donc j\u2019y
+    chuis all\xE9 mais j\u2019ai rien trouv\xE9 ! Les tonneaux \xE9taient carr\xE9ment
+    vides ! Menteur de chergent de chous-offichier\u2026"
+  choices:
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
+  isKeyDialog: 0
+  isEndDialog: 1
+  characterIndex: 8
+  id: 0
