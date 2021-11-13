@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Guitou.unity
     guid: 166ea718fcbe3d54ab796dca609d76e9
   - enabled: 1
+    path: Assets/Scenes/SceneN.unity
+    guid: 521f063acd8442b43b9e024b11f45bd4
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: a268c2ae5fdd21f4cb801211e9c1c185
-  - enabled: 1
-    path: Assets/Scenes/GuitouNiveau2.unity
-    guid: 521f063acd8442b43b9e024b11f45bd4
   m_configObjects: {}

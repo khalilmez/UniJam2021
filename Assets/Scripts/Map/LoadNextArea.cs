@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LoadNextArea : MonoBehaviour
 {
     [SerializeField] private int nextAreaNumber;
+    [SerializeField] private EnumDirection direction;
     BoxCollider areaCollider;
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class LoadNextArea : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            GlobalInformations.s_Direction = direction;
             SceneManager.LoadScene(nextAreaNumber);
         }
     }

@@ -28,6 +28,7 @@ public class DialogDisplay : MonoBehaviour
 
     public void Show()
     {
+        description.text = dialogue.description;
         
         choices = new List<Choice>();
 
