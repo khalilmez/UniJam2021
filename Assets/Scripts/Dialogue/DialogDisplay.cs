@@ -74,7 +74,7 @@ public class DialogDisplay : MonoBehaviour
         canvas.alpha = 1;
         canvas.interactable = true;
         canvas.blocksRaycasts = true;
-
+        description.text = dialogue.description;
     }
 
 

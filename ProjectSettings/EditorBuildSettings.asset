@@ -6,15 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Guitou.unity
-    guid: 166ea718fcbe3d54ab796dca609d76e9
+    path: Assets/Scenes/MiddleScene.unity
+    guid: 8048e675046da1d4f91aee8c137cdd32
   - enabled: 1
-    path: Assets/Scenes/SceneN.unity
-    guid: 521f063acd8442b43b9e024b11f45bd4
+    path: Assets/Scenes/TopWestScene.unity
+    guid: c2379207e2c2c7d44a5748a06c56e417
   - enabled: 1
-    path: Assets/Scenes/SceneNO.unity
-    guid: 1f55120ae47ce3346bde7cc76474ed1b
+    path: Assets/Scenes/TopTopScene.unity
+    guid: 8e5254a6f3b0e1243b61f1bda46d5f19
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: a268c2ae5fdd21f4cb801211e9c1c185
+    path: Assets/Scenes/TopEastScene.unity
+    guid: 9911f3858165e1e4da181dbd05480ff4
+  - enabled: 1
+    path: Assets/Scenes/MiddleWestScene.unity
+    guid: daaf48b90dc1ed14094929a5c046f408
+  - enabled: 1
+    path: Assets/Scenes/MiddleEastScene.unity
+    guid: 555dbfdde20512f42b00a1890b37f74c
+  - enabled: 1
+    path: Assets/Scenes/SouthWestScene.unity
+    guid: e4b50ee107ffec34ab4be5e21fa71bca
+  - enabled: 1
+    path: Assets/Scenes/SouthScene.unity
+    guid: 6f9cc2a4894afab42aa186d8f29036fa
+  - enabled: 1
+    path: Assets/Scenes/SouthEastScene.unity
+    guid: 53f5c86e8183d674680b0abf8654875f
   m_configObjects: {}

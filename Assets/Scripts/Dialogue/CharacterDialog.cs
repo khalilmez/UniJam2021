@@ -9,11 +9,7 @@ public class CharacterDialog : MonoBehaviour
     [SerializeField]
     private List<Dialogue> dialogStartList;
 
-    private void Start()
-    {
-       
-    }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
@@ -30,5 +26,14 @@ public class CharacterDialog : MonoBehaviour
             dialogueStart = null;
         }
         else { dialogueStart = dialogStartList[GlobalInformations.s_characters_dialog_index[characterId]]; }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("Helo Player");
+            DialogDisplay.Instance.dialogue = null;
+        }
+
     }
 }
