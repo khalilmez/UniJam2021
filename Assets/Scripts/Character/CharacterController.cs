@@ -42,8 +42,10 @@ public class CharacterController : MonoBehaviour
         {
             _rbPlayer.velocity = Vector3.zero;
         }
+
         if(Input.GetKeyDown(KeyCode.E) && !DialogDisplay.Instance.IsActive && targetDialog!=null)
         {
+            Debug.Log("enter boucle");
             DialogDisplay.Instance.dialogue = this.targetDialog;
             DialogDisplay.Instance.Show();
         }

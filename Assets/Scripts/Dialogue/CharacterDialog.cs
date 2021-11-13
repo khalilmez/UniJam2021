@@ -13,7 +13,6 @@ public class CharacterDialog : MonoBehaviour
         {
             Debug.Log("Helo Player");
             DialogDisplay.Instance.dialogue = this.dialogue;
-            DialogDisplay.Instance.Show();
         }
     }
 }
