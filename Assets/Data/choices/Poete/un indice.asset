@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Un indice !
   conclusion: {fileID: 11400000, guid: c469940310019a4489a8eb66a8ddafcd, type: 2}
+  suspicion: 1

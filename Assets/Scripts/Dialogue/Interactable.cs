@@ -11,6 +11,7 @@ public class Interactable : MonoBehaviour
     private CanvasGroup canvas;
     private void OnTriggerStay(Collider other)
     {
+        Debug.Log("Helo Player");
         if (other.gameObject.tag == "Player")
         {
             

@@ -7,4 +7,5 @@ public class Choice : ScriptableObject
 {
 	public string text;
 	public Dialogue conclusion;
+	public int suspicion;
 }

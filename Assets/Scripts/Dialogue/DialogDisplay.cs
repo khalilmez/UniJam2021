@@ -23,7 +23,9 @@ public class DialogDisplay : MonoBehaviour
 
     private void Awake()
     {
-        Init();
+        if (Instance != null && Instance != this)
+            Destroy(gameObject);
+        Instance = this;
     }
 
     public void Show()
@@ -83,6 +85,7 @@ public class DialogDisplay : MonoBehaviour
     {
         if (choice.Content != null)
         {
+            LevelOfSuspicien.Instance.AddLevelOfSuspencience(choice.Content.suspicion);
             if (choice.Content.conclusion != null)
             {
                 dialogue = choice.Content.conclusion;
