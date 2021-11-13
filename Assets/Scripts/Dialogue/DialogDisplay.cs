@@ -9,7 +9,7 @@ public class DialogDisplay : MonoBehaviour
     public static DialogDisplay Instance { get; private set; }
     [SerializeField]
     private CanvasGroup canvas;
-
+    public Sprite characterFace;
     public TextMeshProUGUI Title;
     public TextMeshProUGUI description;
     public List<DialogueChoice> choicesList = new List<DialogueChoice>();
@@ -28,19 +28,20 @@ public class DialogDisplay : MonoBehaviour
 
     public void Show()
     {
+        canvas.transform.GetChild(0).GetComponent<Image>().sprite = characterFace;
         description.text = dialogue.description;
         if (dialogue.isKeyDialog)
         {
-            Debug.Log("Suivant");
+           
             GlobalInformations.s_characters_dialog_index[dialogue.characterIndex]=dialogue.id;
-            Debug.Log(GlobalInformations.s_characters_dialog_index[dialogue.characterIndex]);
+           
         }
 
         if (dialogue.isEndDialog)
         {
-            Debug.Log("c'est la fin");
+            
             GlobalInformations.s_characters_dialog_index[dialogue.characterIndex] = -1;
-            Debug.Log(GlobalInformations.s_characters_dialog_index[dialogue.characterIndex]);
+            
         }
         
         choices = new List<Choice>();
