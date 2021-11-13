@@ -32,8 +32,17 @@ public class CharacterController : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && !DialogDisplay.Instance.IsActive && targetDialog != null)
+        {
+            DialogDisplay.Instance.dialogue = this.targetDialog;
+            DialogDisplay.Instance.Show();
+        }
+    }
     void FixedUpdate()
     {
+
         if (Input.anyKey && !DialogDisplay.Instance.IsActive)
         {
             Move();
@@ -43,12 +52,7 @@ public class CharacterController : MonoBehaviour
             _rbPlayer.velocity = Vector3.zero;
         }
 
-        if(Input.GetKeyDown(KeyCode.E) && !DialogDisplay.Instance.IsActive && targetDialog!=null)
-        {
-            Debug.Log("enter boucle");
-            DialogDisplay.Instance.dialogue = this.targetDialog;
-            DialogDisplay.Instance.Show();
-        }
+        
     }
 
     void Move()
