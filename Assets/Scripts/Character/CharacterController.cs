@@ -17,7 +17,7 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKey)
+        if (Input.anyKey && !DialogDisplay.Instance.IsActive)
         {
             Move();
         }
