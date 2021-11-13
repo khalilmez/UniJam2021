@@ -88,18 +88,17 @@ public class DialogDisplay : MonoBehaviour
     {
         canvas.interactable = false;
         canvas.blocksRaycasts = false;
-        canvas.alpha = 0;
-        //StartCoroutine(CloseDialogue());
+        StartCoroutine(CloseDialogue());
     }
 
     private IEnumerator CloseDialogue()
     {
-        float Timer = Time.time;
-        float Duration = 2;
-        while ((Timer + Duration) > Time.time)
+        for (float ft = 1f; ft >= 0; ft -= 0.1f)
         {
-            canvas.alpha = Mathf.Max(canvas.alpha * 0.8f, 0);
+            canvas.alpha = canvas.alpha * 0.8f;
+            yield return new WaitForSeconds(.05f);
         }
+
         canvas.alpha = 0;
         yield return null;
     }
