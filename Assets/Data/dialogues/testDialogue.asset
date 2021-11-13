@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: testDialogue
+  m_EditorClassIdentifier: 
+  title: Helllooo
+  description: Hello world
+  choices:
+  - {fileID: 11400000, guid: 8c409c07a612f514592a73076f6f5527, type: 2}
+  - {fileID: 11400000, guid: e6b3934f5d91333429af6fb490c1b7c5, type: 2}
+  - {fileID: 11400000, guid: 2e01be24774eb0346933d3df7787dd1a, type: 2}
