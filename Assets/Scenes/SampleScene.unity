@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 512d390193a6f9f42b739095fe801578, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: c469940310019a4489a8eb66a8ddafcd, type: 2}
+  dialogue: {fileID: 11400000, guid: 35448b86bc0383d4fbc2ed706bdd2f8b, type: 2}
 --- !u!1001 &1912425081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1715,13 +1715,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 993a70d680fc7c64ca25aa210c0f6588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 2045750206}
   Title: {fileID: 210741930}
   description: {fileID: 210741930}
   choicesList:
   - {fileID: 5485093702902953564}
   - {fileID: 11485142}
   - {fileID: 1912425083}
-  canvas: {fileID: 2045750206}
 --- !u!225 &2045750206
 CanvasGroup:
   m_ObjectHideFlags: 0

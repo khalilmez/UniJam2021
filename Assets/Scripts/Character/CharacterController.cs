@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
+    public static CharacterController Instance { get; private set; }
+
+    public Dialogue targetDialog;
+    public Dialogue TargetDialog {
+        get => targetDialog;
+        set
+        {
+            targetDialog = value;
+        }
+    }
     [SerializeField] float moveSpeed;
     Vector3 forward, right;
     CapsuleCollider _playerCollider;
@@ -11,6 +21,7 @@ public class CharacterController : MonoBehaviour
    
     void Start()
     {
+        Instance = this;
         forward = Camera.main.transform.forward;
         forward.y = 0;
         forward = Vector3.Normalize(forward);
@@ -22,14 +33,19 @@ public class CharacterController : MonoBehaviour
 
     // Update is called once per frame
     void FixedUpdate()
-    {       
-        if (Input.anyKey)
+    {
+        if (Input.anyKey && !DialogDisplay.Instance.IsActive)
         {
             Move();
         }
         else
         {
             _rbPlayer.velocity = Vector3.zero;
+        }
+        if(Input.GetKeyDown(KeyCode.E) && !DialogDisplay.Instance.IsActive && targetDialog!=null)
+        {
+            DialogDisplay.Instance.dialogue = this.targetDialog;
+            DialogDisplay.Instance.Show();
         }
     }
 

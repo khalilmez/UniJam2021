@@ -7,13 +7,14 @@ using TMPro;
 public class DialogDisplay : MonoBehaviour
 {
     public static DialogDisplay Instance { get; private set; }
+    [SerializeField]
+    private CanvasGroup canvas;
 
     public TextMeshProUGUI Title;
     public TextMeshProUGUI description;
     public List<DialogueChoice> choicesList = new List<DialogueChoice>();
+    public bool IsActive => canvas.alpha > 0f;
     public Dictionary<string, Choice> choicesDictionary;
-    [SerializeField]
-    private CanvasGroup canvas;
 
     private List<Choice> choices;
     public Dialogue dialogue{ get; set; }
