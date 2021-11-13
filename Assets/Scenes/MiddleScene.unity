@@ -1856,6 +1856,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
+      propertyPath: dialogStartList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 35448b86bc0383d4fbc2ed706bdd2f8b, type: 2}
+    - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
+      propertyPath: dialogStartList.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4e7e34af06d0fb7479f2c445b750f8b4, type: 2}
     - target: {fileID: 8377726328818025663, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: m_Name
       value: Interractable Object
@@ -2760,7 +2772,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 512d390193a6f9f42b739095fe801578, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 29e2eb9761ec2aa4da7b4eb9a3095a56, type: 2}
+  characterId: 0
+  dialogueStart: {fileID: 0}
+  dialogStartList:
+  - {fileID: 11400000, guid: 65e3e9c3bc1c0be429463bb0db947568, type: 2}
+  - {fileID: 11400000, guid: 1cfec3ff9b4f52a489167a21fcc3f646, type: 2}
 --- !u!1 &5904323025066103473
 GameObject:
   m_ObjectHideFlags: 0
