@@ -29,9 +29,9 @@ public class CharacterController : MonoBehaviour
         Vector3 rightMovement = right * moveSpeed * Time.deltaTime * Input.GetAxis("HorizontalKey");
         Vector3 forwardMovement = forward * moveSpeed * Time.deltaTime * Input.GetAxis("VerticalKey");
 
-        Vector3 heading = Vector3.Normalize(rightMovement + forwardMovement);
+   
 
-        transform.forward = heading;
+        
 
         transform.position += rightMovement;
         transform.position += forwardMovement;
