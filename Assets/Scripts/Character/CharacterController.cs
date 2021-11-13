@@ -32,7 +32,7 @@ public class CharacterController : MonoBehaviour
         {
             Move();
         }
-        if(Input.GetKeyDown(KeyCode.E) && !DialogDisplay.Instance.IsActive)
+        if(Input.GetKeyDown(KeyCode.E) && !DialogDisplay.Instance.IsActive && targetDialog!=null)
         {
             DialogDisplay.Instance.dialogue = this.targetDialog;
             DialogDisplay.Instance.Show();
