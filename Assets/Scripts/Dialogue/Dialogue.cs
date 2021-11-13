@@ -8,4 +8,8 @@ public class Dialogue : ScriptableObject
 	public string title;
 	public string description;
 	public List<Choice> choices = new List<Choice>();
+	public bool isKeyDialog;
+	public bool isEndDialog;
+	public int characterIndex;
+	public int id;
 }

@@ -19,7 +19,7 @@ public class Interactable : MonoBehaviour
             {
                 canvas.alpha = 1- raycastHit.distance/4 +0.1f;
             }
-            MainCharacterController.Instance.TargetDialog = this.transform.parent.gameObject.GetComponent<CharacterDialog>().dialogue;
+            MainCharacterController.Instance.TargetDialog = this.transform.parent.gameObject.GetComponent<CharacterDialog>().dialogueStart;
         }
     }
     private void OnTriggerExit(Collider other)

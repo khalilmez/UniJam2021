@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class CharacterDialog : MonoBehaviour
 {
+    public int characterId;
+    public Dialogue dialogueStart;
     [SerializeField]
-    public Dialogue dialogue;
+    private List<Dialogue> dialogStartList;
 
+    private void Start()
+    {
+       
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Helo Player");
-            DialogDisplay.Instance.dialogue = this.dialogue;
+            DialogDisplay.Instance.dialogue = this.dialogueStart;
         }
+    }
+
+    private void Update()
+    {
+        Debug.Log(GlobalInformations.s_characters_dialog_index[characterId]);
+        if (GlobalInformations.s_characters_dialog_index[characterId] == -1)
+        {
+            dialogueStart = null;
+        }
+        else { dialogueStart = dialogStartList[GlobalInformations.s_characters_dialog_index[characterId]]; }
     }
 }

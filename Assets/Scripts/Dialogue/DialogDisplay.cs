@@ -29,6 +29,19 @@ public class DialogDisplay : MonoBehaviour
     public void Show()
     {
         description.text = dialogue.description;
+        if (dialogue.isKeyDialog)
+        {
+            Debug.Log("Suivant");
+            GlobalInformations.s_characters_dialog_index[dialogue.characterIndex]=dialogue.id;
+            Debug.Log(GlobalInformations.s_characters_dialog_index[dialogue.characterIndex]);
+        }
+
+        if (dialogue.isEndDialog)
+        {
+            Debug.Log("c'est la fin");
+            GlobalInformations.s_characters_dialog_index[dialogue.characterIndex] = -1;
+            Debug.Log(GlobalInformations.s_characters_dialog_index[dialogue.characterIndex]);
+        }
         
         choices = new List<Choice>();
 
