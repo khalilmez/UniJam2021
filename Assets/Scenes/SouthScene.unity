@@ -1577,12 +1577,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: characterId
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: characterFace
       value: 
       objectReference: {fileID: 21300000, guid: 134f9c36bea032e4b873d7a97ac298b4, type: 3}
+    - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 900bcb6ce3833e1489c3df8bd209a235, type: 2}
+    - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
+      propertyPath: dialogStartList.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 11e5da52d3503b542aaf3e933ce15b03, type: 2}
     - target: {fileID: 6582811273581147691, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_Name
       value: Le Perroquet

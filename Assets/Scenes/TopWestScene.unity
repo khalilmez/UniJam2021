@@ -629,7 +629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: characterId
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: characterFace
@@ -638,11 +638,11 @@ PrefabInstance:
     - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: dialogStartList.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 14f5fb68b4af9774b8e47db948c88fd0, type: 2}
+      objectReference: {fileID: 11400000, guid: 3141f1d2103b2ee4dba0cd75a8b78b10, type: 2}
     - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: dialogStartList.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 8588ea2276cb4454eb2cf9df147dc0e2, type: 2}
+      objectReference: {fileID: 11400000, guid: 9a48572809a18f2478d34e296dfa4adc, type: 2}
     - target: {fileID: 6582811273581147691, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_Name
       value: La Maitresse d'armes

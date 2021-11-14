@@ -2213,11 +2213,11 @@ PrefabInstance:
     - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: dialogStartList.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 35448b86bc0383d4fbc2ed706bdd2f8b, type: 2}
+      objectReference: {fileID: 11400000, guid: 68f5fcff1b80d6244bd450005bc864f3, type: 2}
     - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: dialogStartList.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 4e7e34af06d0fb7479f2c445b750f8b4, type: 2}
+      objectReference: {fileID: 11400000, guid: e1c7dfadac3055d44850fdecafdbafe6, type: 2}
     - target: {fileID: 8377726328818025663, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: m_Name
       value: Poete
@@ -2352,6 +2352,10 @@ PrefabInstance:
     - target: {fileID: 8377726328818025650, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
+      propertyPath: characterId
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: characterFace
