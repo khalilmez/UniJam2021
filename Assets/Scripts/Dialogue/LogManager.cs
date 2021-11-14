@@ -13,6 +13,11 @@ public class LogManager : Singleton<LogManager>
     private int page = 0;
     [SerializeField]
     private CanvasGroup logCanvas;
+
+    [SerializeField]
+    private CanvasGroup WinMenu;
+    [SerializeField]
+    private CanvasGroup LoseMenu;
     public static LogManager Instance
     {
         get => instance;
@@ -27,6 +32,44 @@ public class LogManager : Singleton<LogManager>
             Destroy(gameObject);
         }
     }
+
+    void Update()
+    {
+        if (LevelOfSuspicien.Instance.Lost)
+        {
+            if (LoseMenu == null)
+            {
+                LoseMenu = GameObject.Find("LoseMenu").GetComponent<CanvasGroup>();
+                LoseMenu.alpha = 1;
+                LoseMenu.interactable = true;
+                LoseMenu.blocksRaycasts = true;
+            }
+            else
+            {
+                LoseMenu.alpha = 1;
+                LoseMenu.interactable = true;
+                LoseMenu.blocksRaycasts = true;
+            }
+        }
+
+        if (LevelOfSuspicien.Instance.Win)
+        {
+            if (WinMenu == null)
+            {
+                WinMenu = GameObject.Find("LoseMenu").GetComponent<CanvasGroup>();
+                WinMenu.alpha = 1;
+                WinMenu.interactable = true;
+                WinMenu.blocksRaycasts = true;
+            }
+            else
+            {
+                WinMenu.alpha = 1;
+                WinMenu.interactable = true;
+                WinMenu.blocksRaycasts = true;
+            }
+        }
+    }
+
     public void DisplayLog()
     {
         if (Log == null)
