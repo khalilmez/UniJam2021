@@ -1300,7 +1300,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: fa16961a27a3fc04388a51e740623b46, type: 2}
     - target: {fileID: 6582811273581147691, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_Name
-      value: Le Navigateur
+      value: Navigateur
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}

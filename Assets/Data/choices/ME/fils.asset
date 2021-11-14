@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85d3d8cee80fec54ba63b412dd3ab3d8, type: 3}
-  m_Name: vide3
+  m_Name: fils
   m_EditorClassIdentifier: 
-  text: ...
-  conclusion: {fileID: 11400000, guid: 3ff8b4801b796b142a4c3ac765285c86, type: 2}
+  text: 
+  conclusion: {fileID: 0}
   suspicion: 0
-  hint: L'Ivrogne
+  hint: 
   win: 0
