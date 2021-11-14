@@ -18,7 +18,14 @@ public class DialogDisplay : MonoBehaviour
     public TextMeshProUGUI Title;
     public TextMeshProUGUI description;
     public List<DialogueChoice> choicesList = new List<DialogueChoice>();
-    public bool IsActive => mainCanvas.alpha > 0f;
+    public bool IsActive()
+    {
+        if (mainCanvas == null)
+        {
+            mainCanvas = this.gameObject.GetComponent<CanvasGroup>();
+        }
+        return mainCanvas.alpha > 0;
+    }
     public Dictionary<string, Choice> choicesDictionary;
 
     private List<Choice> choices;
@@ -26,10 +33,8 @@ public class DialogDisplay : MonoBehaviour
 
     public void Init() => Instance = this;
 
-    private void Awake()
+    private void Update()
     {
-        if (Instance != null && Instance != this)
-            Destroy(gameObject);
         Instance = this;
     }
 
@@ -46,9 +51,7 @@ public class DialogDisplay : MonoBehaviour
 
         if (dialogue.isEndDialog)
         {
-            
             GlobalInformations.s_characters_dialog_index[dialogue.characterIndex] = -1;
-            
         }
         
         choices = new List<Choice>();
@@ -91,6 +94,16 @@ public class DialogDisplay : MonoBehaviour
         if (choice.Content != null)
         {
             LevelOfSuspicien.Instance.AddLevelOfSuspencience(choice.Content.suspicion);
+            if(choice.Content.hint != "")
+            {
+                GameObject gameObject = GameObject.Find(choice.Content.hint);
+                if(gameObject != null)
+                {
+                    Debug.LogError("YEEEY");
+                    gameObject.GetComponent<CanvasGroup>().alpha = 1;
+                }
+
+            }
             if (choice.Content.conclusion != null)
             {
                 dialogue = choice.Content.conclusion;

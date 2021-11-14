@@ -4,27 +4,29 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class LevelOfSuspicien : MonoBehaviour
+public class LevelOfSuspicien : Singleton<LevelOfSuspicien>
 {
-    public static LevelOfSuspicien Instance { get; private set; }
-
+    public static LevelOfSuspicien Instance
+    {
+        get => instance;
+    }
+    [SerializeField]
     private static int levelOfSuspicion = 0;
     public static int Level { get => levelOfSuspicion; set {
             levelOfSuspicion = value;
         } }
-
+    
     [SerializeField]
     private Scrollbar scrollBar;
 
-    // Start is called before the first frame update
-    void Start()
+    public override void Awake()
     {
-        if (Instance != null && Instance != this)
+        base.Awake();
+
+        if (FindObjectsOfType(GetType()).Length > 1)
+        {
             Destroy(gameObject);
-        Instance = this;
-
-        DontDestroyOnLoad(this.gameObject);
-
+        }
     }
 
     // Update is called once per frame
@@ -42,6 +44,7 @@ public class LevelOfSuspicien : MonoBehaviour
     }
     public void AddLevelOfSuspencience(int points)
     {
+        Debug.Log("Adding " + points);
         levelOfSuspicion += points;
     }
 }
