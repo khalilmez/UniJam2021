@@ -18,6 +18,6 @@ MonoBehaviour:
     pas \xE0 revenir me voir pour essayer \xE0 nouveau."
   choices: []
   isKeyDialog: 0
-  isEndDialog: 0
+  isEndDialog: 1
   characterIndex: 8
   id: 1

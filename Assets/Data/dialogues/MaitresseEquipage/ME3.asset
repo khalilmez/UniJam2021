@@ -17,7 +17,10 @@ MonoBehaviour:
     mais lorsqu'il m'a pris sous son aile il y a 30 ans, il avait deux fois mon \xE2ge
     et a su m\u2019apprendre tout ce qu\u2019une pirate doit savoir. Mais je m\u2019\xE9gare,
     voil\xE0 mon \xE9preuve : quel est mon \xE2ge ?"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 007ae99e4060b194a82ec259b7d224ba, type: 2}
+  - {fileID: 11400000, guid: fd9420fb736ccdc449dd91abfb65bab1, type: 2}
+  - {fileID: 11400000, guid: e3633dc4bdddf3c4aa8347cf37f6b74a, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 8

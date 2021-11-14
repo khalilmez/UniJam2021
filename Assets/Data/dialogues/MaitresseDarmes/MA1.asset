@@ -18,7 +18,10 @@ MonoBehaviour:
     avec mon cher Ibarnas - c\u2019est le nom de mon sabre - m\xEAme si je maitrise
     plus d\u2019armes que lui. T\u2019sais avec combien d\u2019armes je peux d\xE9sentripailler
     quelqu\u2019un ?"
-  choices: []
+  choices:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 9
