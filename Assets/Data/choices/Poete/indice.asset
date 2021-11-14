@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "Il me faut un indice sur la carte au tr\xE9sor."
   conclusion: {fileID: 11400000, guid: e1c7dfadac3055d44850fdecafdbafe6, type: 2}
-  suspicion: 0
+  suspicion: 1
   hint: 
+  win: 0

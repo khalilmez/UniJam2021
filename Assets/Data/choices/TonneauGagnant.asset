@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d3d8cee80fec54ba63b412dd3ab3d8, type: 3}
   m_Name: TonneauGagnant
   m_EditorClassIdentifier: 
-  text: La carte !
+  text: Dommage...
   conclusion: {fileID: 0}
   suspicion: 0
   hint: 
+  win: 1

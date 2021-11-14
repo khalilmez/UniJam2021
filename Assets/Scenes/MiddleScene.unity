@@ -1968,6 +1968,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: characterId
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 79e45a558b5b4664bb26bf595c695e6a, type: 2}
     - target: {fileID: 4155524170792552039, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_Name
       value: Tonneau

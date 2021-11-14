@@ -13,6 +13,6 @@ public enum EnumDirection
 public class GlobalInformations : MonoBehaviour
 {
     public static EnumDirection s_Direction = EnumDirection.DEFAULT;
-    public static int[] s_characters_dialog_index = new int[12];
+    public static int[] s_characters_dialog_index = new int[24];
 
 }
