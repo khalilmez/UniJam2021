@@ -9,4 +9,5 @@ public class Choice : ScriptableObject
 	public Dialogue conclusion;
 	public int suspicion;
 	public string hint;
+	public bool win;
 }
