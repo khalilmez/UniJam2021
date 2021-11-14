@@ -44,9 +44,7 @@ public class LevelOfSuspicien : Singleton<LevelOfSuspicien>
     }
     public void AddLevelOfSuspencience(int points)
     {
-        int newPoints = PlayerPrefs.GetInt("LevelOfSuspicien");
-        newPoints += points;
-        levelOfSuspicion = newPoints;
-        PlayerPrefs.SetInt("LevelOfSuspicien",newPoints);
+        Debug.Log("Adding " + points);
+        levelOfSuspicion += points;
     }
 }
