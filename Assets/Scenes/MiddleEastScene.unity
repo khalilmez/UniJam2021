@@ -320,7 +320,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259324514
 GameObject:
@@ -1194,7 +1194,7 @@ Transform:
   - {fileID: 1373221542}
   - {fileID: 1660046698}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &904642947
 PrefabInstance:
@@ -2146,7 +2146,7 @@ Transform:
   - {fileID: 662781742}
   - {fileID: 1169384169}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1944019311
 PrefabInstance:
@@ -2272,6 +2272,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
+      propertyPath: characterFace
+      value: 
+      objectReference: {fileID: 21300000, guid: 789d07e59c466924cb9dc5653aaafb94, type: 3}
     - target: {fileID: 6582811273581147691, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_Name
       value: MaitresseDequipage

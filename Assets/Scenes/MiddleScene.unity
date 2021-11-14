@@ -1481,6 +1481,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4955777324915919074, guid: ffed207669b6aed4b89a890b988616cd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -32
+      objectReference: {fileID: 0}
     - target: {fileID: 6559143825888816720, guid: ffed207669b6aed4b89a890b988616cd, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1672,6 +1676,10 @@ PrefabInstance:
     - target: {fileID: 8937890099995866437, guid: ffed207669b6aed4b89a890b988616cd, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937890100061897742, guid: ffed207669b6aed4b89a890b988616cd, type: 3}
+      propertyPath: m_fontSize
+      value: 30.2
       objectReference: {fileID: 0}
     - target: {fileID: 8937890100434778024, guid: ffed207669b6aed4b89a890b988616cd, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2197,7 +2205,7 @@ PrefabInstance:
     - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: characterFace
       value: 
-      objectReference: {fileID: 21300000, guid: b924d77bd6624bd47a87b56dc7d121d2, type: 3}
+      objectReference: {fileID: 21300000, guid: 88ef5c08b7b834f48965129f79d6392a, type: 3}
     - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: dialogStartList.Array.size
       value: 2
@@ -2348,7 +2356,7 @@ PrefabInstance:
     - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: characterFace
       value: 
-      objectReference: {fileID: 21300000, guid: b924d77bd6624bd47a87b56dc7d121d2, type: 3}
+      objectReference: {fileID: 21300000, guid: 0ec9a61384ed1ed41bd6aa77a25330af, type: 3}
     - target: {fileID: 8377726328818025662, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: dialogStartList.Array.size
       value: 2

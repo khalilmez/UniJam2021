@@ -70,6 +70,11 @@ public class LogManager : Singleton<LogManager>
         }
     }
 
+   public void Rejouer()
+    {
+
+    }
+
     public void DisplayLog()
     {
         if (Log == null)

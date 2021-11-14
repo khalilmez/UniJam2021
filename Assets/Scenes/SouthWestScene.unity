@@ -1123,6 +1123,10 @@ PrefabInstance:
       propertyPath: characterId
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
+      propertyPath: characterFace
+      value: 
+      objectReference: {fileID: 21300000, guid: 1fefa998d97b6a3448f9625e1d5ffb0d, type: 3}
     - target: {fileID: 6582811273581147691, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_Name
       value: LeJumeau

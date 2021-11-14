@@ -632,6 +632,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
+      propertyPath: characterFace
+      value: 
+      objectReference: {fileID: 21300000, guid: a6541d4e81c86414ca0eec031230297b, type: 3}
+    - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: dialogStartList.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 14f5fb68b4af9774b8e47db948c88fd0, type: 2}
