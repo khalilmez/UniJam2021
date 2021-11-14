@@ -582,7 +582,7 @@ PrefabInstance:
     - target: {fileID: 3393882661402245195, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5e7459ce644a5424f9e248cea637776d, type: 3}
+      objectReference: {fileID: 21300000, guid: a6541d4e81c86414ca0eec031230297b, type: 3}
     - target: {fileID: 6582811273581147686, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -641,7 +641,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 8588ea2276cb4454eb2cf9df147dc0e2, type: 2}
     - target: {fileID: 6582811273581147691, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_Name
-      value: MembreEquipage
+      value: La Maitresse d'armes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c29c077b8f218246a51f9b6d4479c16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextAreaNumber: 4
+  nextAreaNumber: 5
   direction: 0
 --- !u!65 &662781741
 BoxCollider:
@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c29c077b8f218246a51f9b6d4479c16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextAreaNumber: 2
+  nextAreaNumber: 3
   direction: 2
 --- !u!65 &1469888850
 BoxCollider:
@@ -1531,7 +1531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4155524170792552042, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1900005
+      value: 1.34
       objectReference: {fileID: 0}
     - target: {fileID: 4155524170792552042, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_LocalPosition.z

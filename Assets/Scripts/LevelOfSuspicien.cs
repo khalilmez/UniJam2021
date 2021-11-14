@@ -12,6 +12,8 @@ public class LevelOfSuspicien : Singleton<LevelOfSuspicien>
     }
     [SerializeField]
     private static int levelOfSuspicion = 0;
+
+    public static bool Lost = false;
     public static int Level { get => levelOfSuspicion; set {
             levelOfSuspicion = value;
         } }
@@ -46,5 +48,9 @@ public class LevelOfSuspicien : Singleton<LevelOfSuspicien>
     {
         Debug.Log("Adding " + points);
         levelOfSuspicion += points;
+        if (levelOfSuspicion > 15)
+        {
+
+        }
     }
 }
