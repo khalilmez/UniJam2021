@@ -9,6 +9,7 @@ TagManager:
   - West
   - North
   - DefaultSpawn
+  - Poete
   layers:
   - Default
   - TransparentFX
