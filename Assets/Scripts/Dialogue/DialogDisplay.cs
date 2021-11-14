@@ -20,11 +20,11 @@ public class DialogDisplay : MonoBehaviour
     public List<DialogueChoice> choicesList = new List<DialogueChoice>();
     public bool IsActive()
     {
-        if (canvas == null)
+        if (mainCanvas == null)
         {
-            canvas = this.gameObject.GetComponent<CanvasGroup>();
+            mainCanvas = this.gameObject.GetComponent<CanvasGroup>();
         }
-        return canvas.alpha > 0;
+        return mainCanvas.alpha > 0;
     }
     public Dictionary<string, Choice> choicesDictionary;
 
