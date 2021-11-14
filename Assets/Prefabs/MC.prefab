@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5137524638412369556}
   - component: {fileID: 5137524638412369562}
   - component: {fileID: 5137524638412369563}
+  - component: {fileID: 3267391851993054598}
   m_Layer: 0
   m_Name: Renderer
   m_TagString: Untagged
@@ -95,6 +96,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d7f3ef39cc01d479135f44164b5fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3267391851993054598
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5137524638412369557}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 46544375c0d0f7d4192beb6c22c2f36e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5137524638594686883
 GameObject:
   m_ObjectHideFlags: 0
