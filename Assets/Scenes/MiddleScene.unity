@@ -2375,7 +2375,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 4e7e34af06d0fb7479f2c445b750f8b4, type: 2}
     - target: {fileID: 8377726328818025663, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}
       propertyPath: m_Name
-      value: La Seconde
+      value: Seconde
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8377726328818025651, guid: d59dac83b63b91f40b4244a9c6e73ce6, type: 3}

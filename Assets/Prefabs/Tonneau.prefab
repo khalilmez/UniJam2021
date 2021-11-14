@@ -384,7 +384,7 @@ MonoBehaviour:
   dialogueStart: {fileID: 0}
   dialogStartList:
   - {fileID: 11400000, guid: 58f0be4716a45694887e5fe2f4470591, type: 2}
-  characterFace: {fileID: 0}
+  characterFace: {fileID: 21300000, guid: 691056a5a3d5d3e43984dab5d41f0c6c, type: 3}
 --- !u!1001 &1658920603000044616
 PrefabInstance:
   m_ObjectHideFlags: 0
