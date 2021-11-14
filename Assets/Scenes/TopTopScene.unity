@@ -1048,6 +1048,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: characterId
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 441bbd7bfa636dd479288949ee7f77ee, type: 2}
     - target: {fileID: 4155524170792552039, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_Name
       value: Tonneau (1)
@@ -1980,6 +1988,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 259324515}
     m_Modifications:
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: characterId
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3b96b9adda17e7540a9603eb2a12883a, type: 2}
     - target: {fileID: 4155524170792552039, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_Name
       value: Tonneau

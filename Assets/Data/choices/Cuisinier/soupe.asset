@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85d3d8cee80fec54ba63b412dd3ab3d8, type: 3}
-  m_Name: TonneauGagnant
+  m_Name: soupe
   m_EditorClassIdentifier: 
-  text: "L\xE0, il y a quelque chose..."
-  conclusion: {fileID: 0}
+  text: "La mission est\u2026 Une soupe ?"
+  conclusion: {fileID: 11400000, guid: 9b7f7664f03ba8b4b9ea13a7f675b700, type: 2}
   suspicion: 0
   hint: 
-  win: 1
+  win: 0

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85d3d8cee80fec54ba63b412dd3ab3d8, type: 3}
-  m_Name: TonneauGagnant
+  m_Name: safran
   m_EditorClassIdentifier: 
-  text: "L\xE0, il y a quelque chose..."
-  conclusion: {fileID: 0}
+  text: Du safran ?
+  conclusion: {fileID: 11400000, guid: 23819fca1daf7dd4ebf4815a6888e1b6, type: 2}
   suspicion: 0
-  hint: 
-  win: 1
+  hint: Le Cuisinier
+  win: 0

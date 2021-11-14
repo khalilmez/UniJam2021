@@ -1203,6 +1203,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: characterId
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d53d537c8915fcb4c9e4061695eed77b, type: 2}
     - target: {fileID: 4155524170792552039, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_Name
       value: Tonneau
@@ -2146,7 +2154,7 @@ Transform:
   - {fileID: 662781742}
   - {fileID: 1169384169}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1944019311
 PrefabInstance:

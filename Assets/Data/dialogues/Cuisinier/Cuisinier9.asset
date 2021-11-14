@@ -16,7 +16,10 @@ MonoBehaviour:
   description: " Oui, tr\xE8s bonne r\xE9ponse ! Le secret de la soupe, c\u2019est
     cet \xE9quilibre, \xE0 la limite du liquide ! Enfin, il me faut une herbe aromatique
     !"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: dd083ed012cf3f54e83f0ae6e26970db, type: 2}
+  - {fileID: 11400000, guid: fcc0a423f0c11fe45ae72210450c7714, type: 2}
+  - {fileID: 11400000, guid: ca526d20d2061d14881176593a0f1dbb, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 6

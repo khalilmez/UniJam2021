@@ -15,7 +15,9 @@ MonoBehaviour:
   title: 
   description: "  Hmm\u2026 Tu as raison. Je ne voudrais pas que tu mettes en p\xE9ril
     le chantier que repr\xE9sente ma soupe."
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 10568817e03a54340a05ef270847ab65, type: 2}
+  - {fileID: 11400000, guid: fa4215f629b7ad341bedd844ed93f9cd, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 6

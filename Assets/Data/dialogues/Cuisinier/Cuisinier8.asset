@@ -16,7 +16,8 @@ MonoBehaviour:
   description: " Rien du tout ? Mais non, bougre ! Si je voulais faire une pur\xE9e,
     je te l\u2019aurais dit ! Reviens me voir quand tu auras les oreilles d\xE9bouch\xE9es
     ! "
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 6

@@ -19,7 +19,10 @@ MonoBehaviour:
     \xE0 b\xE2bord, deux fois \xE0 tribord, une fois tout droit et enfin je vire
     une derni\xE8re fois \xE0 tribord. Dans quelle direction mon b\xE2teau se dirige
     ?"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 37bb2cc85d51dbd43bdcbaa8f796b0eb, type: 2}
+  - {fileID: 11400000, guid: e61803c479ab6944db2a23e66eb925c3, type: 2}
+  - {fileID: 11400000, guid: 0f8e876c95794d34e9ed33820f965659, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 5

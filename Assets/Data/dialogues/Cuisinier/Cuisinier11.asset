@@ -19,7 +19,8 @@ MonoBehaviour:
     mat\xE9rielles\u2026 Oui, du safran\u2026 Je crois que tu as raison. Tu as m\xE9rit\xE9
     que je contribue \xE0 ta qu\xEAte. La carte au tr\xE9sor n\u2019est pas \xE0
     c\xF4t\xE9 d\u2019un homme ou d\u2019une femme avec un bandeau."
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
   isKeyDialog: 0
   isEndDialog: 1
   characterIndex: 6

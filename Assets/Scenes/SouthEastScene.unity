@@ -860,6 +860,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: characterId
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4155524170792552039, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_Name
       value: Tonneau

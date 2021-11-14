@@ -15,7 +15,10 @@ MonoBehaviour:
   title: 
   description: "Parfait ! Je sens d\xE9j\xE0 la combinaison des saveurs ! Mais la
     soupe est trop \xE9paisse maintenant, qu\u2019est-ce que tu rajouterais ?"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 5a32be41f18477249b65a53216665432, type: 2}
+  - {fileID: 11400000, guid: b12ea4563a5df87429c8780dd140cf27, type: 2}
+  - {fileID: 11400000, guid: c0e2a754b2a3e9e4bbbe4d97455095fb, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 6

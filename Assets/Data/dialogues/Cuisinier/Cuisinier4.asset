@@ -15,7 +15,9 @@ MonoBehaviour:
   title: 
   description: "Tu as l\u2019air ahuri, tu n\u2019as jamais vu de soupe de ta vie
     ?"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 5f4e1e66ad8c4304787b8af8dab6f74e, type: 2}
+  - {fileID: 11400000, guid: 53dbe4f13443e10468d885d34814f3d4, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 6

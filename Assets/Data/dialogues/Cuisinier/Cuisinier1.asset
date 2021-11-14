@@ -15,7 +15,10 @@ MonoBehaviour:
   title: 
   description: "Ah ! Le fils de Balkan Ier, je t\u2019attendais. J\u2019ai besoin
     de ton aide imm\xE9diate pour une mission de la plus haute importance !"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: fb4628ecaaf429b4390a7c1deec3e0cf, type: 2}
+  - {fileID: 11400000, guid: 22554fc98c2b22144a6ddf62bc6c4da8, type: 2}
+  - {fileID: 11400000, guid: cc6ba5a21f7a52c43b72c8f4d9d714c3, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 6

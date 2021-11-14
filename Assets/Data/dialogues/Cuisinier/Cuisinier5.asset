@@ -17,8 +17,11 @@ MonoBehaviour:
     la t\xE2che : j\u2019ai avec moi ce d\xE9licieux potage aux choux. Mais la muse
     de la cuisine m\u2019a quitt\xE9e, je suis \xE0 court d\u2019id\xE9es pour l\u2019agr\xE9menter.
     Vite, quelle cucurbitac\xE9e ajouterais-tu \xE0 la recette ? "
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: c88e2de884a54ec4e8da6af0041f211e, type: 2}
+  - {fileID: 11400000, guid: 5d9fe91ab2de31a4ab422224cd8d9f97, type: 2}
+  - {fileID: 11400000, guid: c73484b5240266348bff9dff2be0542a, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 6
-  id: 0
+  id: 1

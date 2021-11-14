@@ -110,13 +110,15 @@ public class DialogDisplay : MonoBehaviour
             if (choice.Content.conclusion != null)
             {
                 dialogue = choice.Content.conclusion;
-                HideChoices();
+                
                 Show();
             }
+            
             else
             {
                 Close();
             }
+            HideChoices();
         }
         else
         {

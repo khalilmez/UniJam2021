@@ -479,6 +479,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.6
       objectReference: {fileID: 0}
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: characterId
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: da41a514f7f2d814ab6e690b12c8f379, type: 2}
     - target: {fileID: 4155524170792552039, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_Name
       value: Tonneau
@@ -1127,6 +1135,14 @@ PrefabInstance:
       propertyPath: characterFace
       value: 
       objectReference: {fileID: 21300000, guid: 1fefa998d97b6a3448f9625e1d5ffb0d, type: 3}
+    - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e9f0242edc86d545abb53be94c0f2f4, type: 2}
+    - target: {fileID: 6582811273581147690, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
+      propertyPath: dialogStartList.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: cb83b253de7019c49a8761c2d6c119d3, type: 2}
     - target: {fileID: 6582811273581147691, guid: f5ca4e49258b0314fb3b215849e0d0e3, type: 3}
       propertyPath: m_Name
       value: LeJumeau
@@ -2097,6 +2113,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: characterId
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155524170792552038, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
+      propertyPath: dialogStartList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 32dd021de393fda49a8608f26488f23e, type: 2}
     - target: {fileID: 4155524170792552039, guid: 5d50cc212fbb84545ac198b86748884f, type: 3}
       propertyPath: m_Name
       value: Tonneau (1)
