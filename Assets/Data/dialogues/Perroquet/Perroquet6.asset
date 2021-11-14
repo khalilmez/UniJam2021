@@ -15,7 +15,8 @@ MonoBehaviour:
   title: 
   description: "Diiiiis-moi ce que le capitaine t\u2019as diiit ! Diiiiis-moi ce
     que le capitaine t\u2019as diiit !"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: ad0e2db60a42eb54fbf26940e86c4da8, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 3

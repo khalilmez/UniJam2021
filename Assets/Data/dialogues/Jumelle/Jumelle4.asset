@@ -17,7 +17,8 @@ MonoBehaviour:
     laisse-moi t\u2019en apprendre un. Tu remplaces les lettres de la phrase par
     le chiffre qui correspond \xE0 leur place dans l\u2019alphabet. Et voil\xE0 !
     Un code simple mais efficace."
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 2

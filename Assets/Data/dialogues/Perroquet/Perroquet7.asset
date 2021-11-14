@@ -16,7 +16,8 @@ MonoBehaviour:
   description: "Laaaaa carte au tr\xE9sor n\u2019est pas dans un tonneau renvers\xE9\xE9\xE9
     ! Laaaaa carte au tr\xE9sor n\u2019est pas dans un tonneau renvers\xE9\xE9\xE9
     !"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 4cdb8210ef09a404f86b4d88ea0d355d, type: 2}
   isKeyDialog: 0
   isEndDialog: 1
   characterIndex: 3

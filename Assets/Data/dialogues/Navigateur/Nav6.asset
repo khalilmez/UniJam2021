@@ -16,7 +16,8 @@ MonoBehaviour:
   description: "Tu es un vrai marin, tu trouveras ton tr\xE9sor sans probl\xE8me
     quand tu auras ta carte. Pas besoin de chercher dans le tonneau le plus au nord,
     ni dans celui le plus au sud. "
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
   isKeyDialog: 0
   isEndDialog: 1
   characterIndex: 5

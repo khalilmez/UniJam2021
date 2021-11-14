@@ -16,7 +16,8 @@ MonoBehaviour:
   description: "Ah ! Il t\u2019aura tout appris sur l\u2019art des po\xE8tes. Pour
     ce que tu cherches, envoie aux oubliettes Tout objet reposant sous des b\xE2tisses
     bleues. Allez, file affronter ta destin\xE9e, parbleu ! "
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
   isKeyDialog: 0
   isEndDialog: 1
   characterIndex: 0

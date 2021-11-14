@@ -15,7 +15,10 @@ MonoBehaviour:
   title: 
   description: "Oh, je ressens l\u2019\xE2me d\u2019un pirate f\xE9libre. \tQue sont
     pour toi les mots ? "
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: ca9b03eda2e472a449abf867439d07e4, type: 2}
+  - {fileID: 11400000, guid: 9a89aad2df6c2754298ea3f1eff06437, type: 2}
+  - {fileID: 11400000, guid: 6104762f29054844fb3a86b4b9d4b2b6, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 0

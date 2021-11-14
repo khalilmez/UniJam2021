@@ -15,7 +15,10 @@ MonoBehaviour:
   title: 
   description: "En effet, le voici : la carte au tr\xE9sor ne se trouve pas b dpuf
     e'vo cbod."
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: d80813fcc90d20443bb11d5305f22b4c, type: 2}
+  - {fileID: 11400000, guid: ebfd212ea3f5c3f4791bae431e7a138a, type: 2}
+  - {fileID: 11400000, guid: 64503c675f795414587ef30ae5c46cb3, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 2

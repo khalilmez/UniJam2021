@@ -16,7 +16,9 @@ MonoBehaviour:
   description: "C\u2019est un code ! Je ne peux pas donner un indice \xE0 n\u2019importe
     qui sans le coder au pr\xE9alable ! Ne t\u2019inqui\xE8te pas, si tu tiens de
     ton p\xE8re, \xE7a ne devrait pas te poser de probl\xE8me. "
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 7466a20faf95b924788e5688be5426c6, type: 2}
+  - {fileID: 11400000, guid: 1fc810d9cbe1c0d41ba0ad01d2b7e727, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 2

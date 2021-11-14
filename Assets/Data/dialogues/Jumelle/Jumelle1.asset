@@ -15,7 +15,8 @@ MonoBehaviour:
   title: 
   description: Bien le bonjour, moussaillon ! Je suppose que tu es le fils du capitaine
     ?
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 71982a5e868ac7e4386bd8a87f42d818, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 2

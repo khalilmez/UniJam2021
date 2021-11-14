@@ -16,7 +16,8 @@ MonoBehaviour:
   description: "Tu es fils de pirate et tu ne sais m\xEAme pas ce que b\xE2bord et
     tribord repr\xE9sente ? Pense au mot \u201Cbatterie\u201D, et reviens me voir
     quand tu sauras naviguer."
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 5

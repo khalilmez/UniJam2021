@@ -16,7 +16,10 @@ MonoBehaviour:
   description: "Tu es le mousse descendant du capitaine ? Ressemblance frappante,
     il t\u2019a l\xE9gu\xE9 ses g\xE8nes. Puis-je aider \xE0 l\u2019aube de l\u2019ex\xE9cution
     ? "
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: bc35d3102a313974987ff6fa613d386c, type: 2}
+  - {fileID: 11400000, guid: d26ca87225d531d42b437e518bc2b2ab, type: 2}
+  - {fileID: 11400000, guid: f6b16e6a735ad944f9dd37f45d3f5cae, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 0

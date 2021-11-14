@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: 
   description: "Ceeeee qu\u2019il peut diiire ! Ceeeee qu\u2019il peut diiire ! "
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: bc35d3102a313974987ff6fa613d386c, type: 2}
+  - {fileID: 11400000, guid: af282636be0b83146b2640b109675735, type: 2}
+  - {fileID: 11400000, guid: d0fc8b5ba2e32724aade2d6e2e2e7dfc, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 3

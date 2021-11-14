@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d3d8cee80fec54ba63b412dd3ab3d8, type: 3}
   m_Name: versEst
   m_EditorClassIdentifier: 
-  text: Vers le Sud
-  conclusion: {fileID: 11400000, guid: 58ff0aadab9f69c46ae48013cc2bc713, type: 2}
+  text: "Vers l\u2019Est. "
+  conclusion: {fileID: 11400000, guid: 23c4706ea3f819d4b904737c2d461c21, type: 2}
   suspicion: 0
-  hint: 
+  hint: Le Navigateur

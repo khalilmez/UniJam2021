@@ -15,7 +15,10 @@ MonoBehaviour:
   title: 
   description: "\xC0\xE0\xE0\xE0\xE0 l\u2019abordaaage ! \xC0\xE0\xE0\xE0\xE0 l\u2019abordaaage
     !"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 1b525032e3ce06f458a07790d5315e5d, type: 2}
+  - {fileID: 11400000, guid: 987076e0c6183f04395d611e7f46d2ac, type: 2}
+  - {fileID: 11400000, guid: 4c991e980e9f7684eaacf33e9074edd0, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 3

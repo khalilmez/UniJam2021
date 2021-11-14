@@ -16,7 +16,10 @@ MonoBehaviour:
   description: "Je ne partage les secrets qu\u2019avec ceux qui savent naviguer.
     En partant de mon \xEEle paradisiaque, o\xF9 est-ce que je me retrouve si je
     vais plein sud puis trois fois \xE0 b\xE2bord ?"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: a45132a51400fa344aa83d4a2e52b7e9, type: 2}
+  - {fileID: 11400000, guid: 084b3c61e1e753a4c991ca2554f65187, type: 2}
+  - {fileID: 11400000, guid: 4b1957efa0bb28c46a2e29a0b28fcea4, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 5

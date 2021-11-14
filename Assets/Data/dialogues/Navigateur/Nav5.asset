@@ -15,7 +15,10 @@ MonoBehaviour:
   title: 
   description: "Comment veux-tu trouver un tr\xE9sor si tu ne sais pas o\xF9 est
     le nord et le sud ? Tu me fais perdre mon temps."
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 37bb2cc85d51dbd43bdcbaa8f796b0eb, type: 2}
+  - {fileID: 11400000, guid: e61803c479ab6944db2a23e66eb925c3, type: 2}
+  - {fileID: 11400000, guid: 0f8e876c95794d34e9ed33820f965659, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 5
