@@ -35,7 +35,11 @@ public class LogManager : Singleton<LogManager>
             Destroy(gameObject);
         }
     }
-
+    void Start()
+    {
+        WinMenu.alpha = 0;
+        LoseMenu.alpha = 0;
+    }
     void Update()
     {
         if (LevelOfSuspicien.Instance.Lost)
@@ -53,12 +57,13 @@ public class LogManager : Singleton<LogManager>
                 LoseMenu.interactable = true;
                 LoseMenu.blocksRaycasts = true;
             }
+            LevelOfSuspicien.Instance.Lost = false;
+            LevelOfSuspicien.Instance.LevelOfSuspicion = 0;
         }
 
         if (LevelOfSuspicien.Instance.Win)
         {
             LevelOfSuspicien.Instance.GetComponent<AudioSource>().clip = WinMusic;
-
             if (WinMenu == null)
             {
                 WinMenu = GameObject.Find("LoseMenu").GetComponent<CanvasGroup>();
@@ -72,12 +77,20 @@ public class LogManager : Singleton<LogManager>
                 WinMenu.interactable = true;
                 WinMenu.blocksRaycasts = true;
             }
+            LevelOfSuspicien.Instance.Win = false;
+            LevelOfSuspicien.Instance.LevelOfSuspicion = 0;
         }
     }
 
    public void Rejouer()
     {
         Destroy(LevelOfSuspicien.Instance.gameObject);
+        LoseMenu.alpha = 0;
+        LoseMenu.interactable = false;
+        LoseMenu.blocksRaycasts = false;
+        WinMenu.alpha = 0;
+        WinMenu.interactable = false;
+        WinMenu.blocksRaycasts = false;
         Destroy(this.gameObject);
         SceneManager.LoadScene(0);
     }
