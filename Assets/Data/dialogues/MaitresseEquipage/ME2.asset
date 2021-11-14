@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: ME2
   m_EditorClassIdentifier: 
   title: 
-  description: " Ah le fils de Balkan Ier ! Je te donnerai volontiers l\u2019indice,
+  description: "Ah le fils de Balkan Ier ! Je te donnerai volontiers l\u2019indice,
     mais le capitaine m\u2019a fait promettre de te tester avant. Venant de lui,
-    je ne pouvais pas refuser."
-  choices: []
+    je ne pouvais pas refuser. "
+  choices:
+  - {fileID: 11400000, guid: 83da44d689c7c4d4686e57c4d2d0f513, type: 2}
+  - {fileID: 11400000, guid: 3923e6531cb8d6447b399cf50aa2c201, type: 2}
+  - {fileID: 11400000, guid: a70e4ad96a5605c4aa7348cd0269e582, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 8

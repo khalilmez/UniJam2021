@@ -15,7 +15,9 @@ MonoBehaviour:
   title: 
   description: "Salut ! Belle journ\xE9e n\u2019est-ce pas ? Qu\u2019est-ce que je
     peux faire pour toi ?"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 47bfd94a4b86a4c45bb1ec02f7ae462a, type: 2}
+  - {fileID: 11400000, guid: c83a64305c09c3346b90e77ffc3a19bd, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 8

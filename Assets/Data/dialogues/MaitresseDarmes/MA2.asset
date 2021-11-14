@@ -19,7 +19,8 @@ MonoBehaviour:
     T\u2019sais quoi, si tu devines l\u2019arme que je maitrise le moins bien, je
     te donne un indice, sinon je te donne un bon coup de sabre\u2026 Alors, tu penses
     que je manie mal l\u2019espadon, la hache ou le cimeterre ?"
-  choices: []
+  choices:
+  - {fileID: 11400000, guid: 3cc5c2d8489110748aa6ff508bebd969, type: 2}
   isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 9
