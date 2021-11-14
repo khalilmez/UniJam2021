@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 166204658982074298}
   - component: {fileID: 7148914367785525123}
   - component: {fileID: 4437422162908896751}
+  - component: {fileID: 1230181471212837320}
   m_Layer: 0
   m_Name: Cabane
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1230181471212837320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194257459167460469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.27647242, y: 0.28402072, z: 0.5562629}
+  m_Center: {x: 0.00000005959542, y: 0.000000011215197, z: 0.27813146}
 --- !u!1 &3709482531963658545
 GameObject:
   m_ObjectHideFlags: 0
