@@ -23,5 +23,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5e21e94c30a80934f9c12a6cb3cf41d8, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
-  characterIndex: 0
+  characterIndex: 4
   id: 0

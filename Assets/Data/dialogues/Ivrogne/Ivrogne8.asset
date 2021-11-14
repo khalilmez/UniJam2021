@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Ivrogne8
   m_EditorClassIdentifier: 
   title: suite
-  description: " \u2026 Mais moi je chuis pas chtupide, je chavais que ch\u2019\xE9tais
+  description: "\u2026 Mais moi je chuis pas chtupide, je chavais que ch\u2019\xE9tais
     pas pochible que tous les tonneaux choient plein de rhum ! Je chavais que chi
-    des tonneaux avaient du rhum che cheraient cheux devant les tavernes ! Donc j\u2019y
+    des tonneaux avaient du rhum che cheraient cheux devant les bars ! Donc j\u2019y
     chuis all\xE9 mais j\u2019ai rien trouv\xE9 ! Les tonneaux \xE9taient carr\xE9ment
     vides ! Menteur de chergent de chous-offichier\u2026"
   choices:
   - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
   isKeyDialog: 0
   isEndDialog: 1
-  characterIndex: 8
+  characterIndex: 7
   id: 0

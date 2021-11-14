@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Poete1
   m_EditorClassIdentifier: 
   title: 
-  description: 
+  description: "Tu es le mousse descendant du capitaine ? Ressemblance frappante,
+    il t\u2019a l\xE9gu\xE9 ses g\xE8nes. Puis-je aider \xE0 l\u2019aube de l\u2019ex\xE9cution
+    ? "
   choices: []
   isKeyDialog: 0
   isEndDialog: 0

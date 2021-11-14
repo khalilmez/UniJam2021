@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: Nav6
+  m_EditorClassIdentifier: 
+  title: 
+  description: "Tu es un vrai marin, tu trouveras ton tr\xE9sor sans probl\xE8me
+    quand tu auras ta carte. Pas besoin de chercher dans le tonneau le plus au nord,
+    ni dans celui le plus au sud. "
+  choices: []
+  isKeyDialog: 0
+  isEndDialog: 1
+  characterIndex: 5
+  id: 0

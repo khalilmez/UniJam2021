@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: ME3
+  m_EditorClassIdentifier: 
+  title: 
+  description: " C\u2019est aussi mon avis. Le capitaine a 10 ans de plus que moi,
+    mais lorsqu'il m'a pris sous son aile il y a 30 ans, il avait deux fois mon \xE2ge
+    et a su m\u2019apprendre tout ce qu\u2019une pirate doit savoir. Mais je m\u2019\xE9gare,
+    voil\xE0 mon \xE9preuve : quel est mon \xE2ge ?"
+  choices: []
+  isKeyDialog: 0
+  isEndDialog: 0
+  characterIndex: 8
+  id: 1

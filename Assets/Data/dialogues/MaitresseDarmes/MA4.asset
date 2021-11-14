@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: MA4
+  m_EditorClassIdentifier: 
+  title: 
+  description: "Oh, t\u2019es un malin. Quand tu manies une arme, elle devient ton
+    amie jusqu'\xE0 la mort et c\u2019est pas l\u2019cas pour moi avec le cimeterre.
+    T\u2019sais quoi, laisse tomber le tonneau le plus proche de chaque ponton, t\u2019y
+    trouveras rien d\u2019int\xE9ressant. "
+  choices: []
+  isKeyDialog: 0
+  isEndDialog: 1
+  characterIndex: 9
+  id: 0

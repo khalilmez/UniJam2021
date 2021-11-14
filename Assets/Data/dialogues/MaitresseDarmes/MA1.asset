@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: MA1
+  m_EditorClassIdentifier: 
+  title: 
+  description: "Hm ? Qui es-tu ? Oh, alors c\u2019est toi le rejeton du capitaine.
+    T\u2019sais que ton p\xE8re, il a un sacr\xE9 coup de sabre, le seul qui rivalise
+    avec mon cher Ibarnas - c\u2019est le nom de mon sabre - m\xEAme si je maitrise
+    plus d\u2019armes que lui. T\u2019sais avec combien d\u2019armes je peux d\xE9sentripailler
+    quelqu\u2019un ?"
+  choices: []
+  isKeyDialog: 0
+  isEndDialog: 0
+  characterIndex: 9
+  id: 0

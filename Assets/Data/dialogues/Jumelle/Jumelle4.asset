@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: Jumelle4
+  m_EditorClassIdentifier: 
+  title: 
+  description: "Tout bon pirate se doit de conna\xEEtre des codes secrets ! Tiens,
+    laisse-moi t\u2019en apprendre un. Tu remplaces les lettres de la phrase par
+    le chiffre qui correspond \xE0 leur place dans l\u2019alphabet. Et voil\xE0 !
+    Un code simple mais efficace."
+  choices: []
+  isKeyDialog: 1
+  isEndDialog: 0
+  characterIndex: 2
+  id: 1

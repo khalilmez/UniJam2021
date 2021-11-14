@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: intro
   description: "Tiens voil\xE0 ton indice si t\u2019es si press\xE9. La carte au
-    tr\xE9sor se trouve \xE0 c\xF4t\xE9 *4'21.1 16.9.18.1.20.5*."
+    tr\xE9sor ne se trouve pas \xE0 c\xF4t\xE9 4'21.14 5.19.3.1.12.9.5.18."
   choices:
   - {fileID: 11400000, guid: 2e312c88356a4e947b2e33774cfac0b9, type: 2}
   - {fileID: 11400000, guid: e9120593f12902840b7c92f2b7fd6fda, type: 2}

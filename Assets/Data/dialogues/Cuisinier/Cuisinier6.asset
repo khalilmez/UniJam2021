@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: Cuisinier6
+  m_EditorClassIdentifier: 
+  title: 
+  description: " Mais quel idiot ! Comment confondre solanac\xE9e et cucurbitac\xE9e
+    ? S\u2019il y a bien une patate ici, c\u2019est toi !"
+  choices: []
+  isKeyDialog: 0
+  isEndDialog: 0
+  characterIndex: 6
+  id: 0

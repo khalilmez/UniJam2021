@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: MA3
+  m_EditorClassIdentifier: 
+  title: 
+  description: " *lame qui fend l\u2019air* Hop l\xE0 ! Voil\xE0 une petite \xE9raflure
+    sur ta joue en souvenir de ton \xE9chec. Tu devrais te rendre compte qu\u2019les
+    mots avec un grand M sont des armes que je manie tout aussi bien. "
+  choices: []
+  isKeyDialog: 0
+  isEndDialog: 0
+  characterIndex: 9
+  id: 0

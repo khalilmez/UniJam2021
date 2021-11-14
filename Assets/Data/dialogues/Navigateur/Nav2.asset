@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: Nav2
+  m_EditorClassIdentifier: 
+  title: 
+  description: "Je ne partage les secrets qu\u2019avec ceux qui savent naviguer.
+    En partant de mon \xEEle paradisiaque, o\xF9 est-ce que je me retrouve si je
+    vais plein sud puis trois fois \xE0 b\xE2bord ?"
+  choices: []
+  isKeyDialog: 1
+  isEndDialog: 0
+  characterIndex: 5
+  id: 1
