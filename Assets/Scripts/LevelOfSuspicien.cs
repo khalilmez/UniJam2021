@@ -46,6 +46,10 @@ public class LevelOfSuspicien : Singleton<LevelOfSuspicien>
             Destroy(gameObject);
         }
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
     // Update is called once per frame
     void Update()
