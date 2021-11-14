@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
-  m_Name: Poete6
+  m_Name: Seconde5
   m_EditorClassIdentifier: 
-  title: "Gagn\xE9"
-  description: "Gagn\xE9"
+  title: 
+  description: "Mauvaise r\xE9ponse. Reviens me voir quand t\u2019auras le bon mot
+    de passe\u2026 Si t\u2019es vraiment le fils du capitaine."
   choices:
-  - {fileID: 11400000, guid: d6ddc1fc4327a8647bca368b7268b760, type: 2}
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
   isKeyDialog: 0
-  isEndDialog: 1
+  isEndDialog: 0
   characterIndex: 0
   id: 0

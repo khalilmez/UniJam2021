@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
-  m_Name: Poete2
+  m_Name: Seconde2
   m_EditorClassIdentifier: 
-  title: Helllooo
-  description: Hello world
+  title: 
+  description: "Fais attention par contre ! La marine nous colle aux basques, parle
+    avec nous pour obtenir des indices mais garde l\u2019\u0153il ouvert : plus tu
+    parles, plus t\u2019es suspect. Si on te suspecte trop, tu vas partager une cellule
+    avec ton p\xE8re."
   choices:
   - {fileID: 11400000, guid: 2e01be24774eb0346933d3df7787dd1a, type: 2}
-  - {fileID: 11400000, guid: e6b3934f5d91333429af6fb490c1b7c5, type: 2}
   isKeyDialog: 0
+  isEndDialog: 0
   characterIndex: 0
   id: 0

@@ -17,8 +17,9 @@ MonoBehaviour:
     j\u2019allais laisser un indice non-cod\xE9 entre n\u2019importe quelles mains
     ? Certainement pas entre les tiennes !"
   choices:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: ae3b2ca85a0341442bd62bcb00d9f60e, type: 2}
+  - {fileID: 11400000, guid: 256771cee0de5c84e98c3c5e9f666b19, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 1
-  id: 0
+  id: 1

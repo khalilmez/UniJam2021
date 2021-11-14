@@ -16,7 +16,7 @@ MonoBehaviour:
   description: "C\u2019est toi le fils du capitaine ? T\u2019as h\xE9rit\xE9 de son
     air mais pas de son envergure."
   choices:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: dbda56d5e679c734fb8160822fd72b7f, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 1

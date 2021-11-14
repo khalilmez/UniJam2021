@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d3d8cee80fec54ba63b412dd3ab3d8, type: 3}
   m_Name: Ok attention
   m_EditorClassIdentifier: 
-  text: Ok attention
+  text: Compris, je vais faire attention.
   conclusion: {fileID: 11400000, guid: 4e7e34af06d0fb7479f2c445b750f8b4, type: 2}
   suspicion: 2

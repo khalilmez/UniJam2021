@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
+  m_Name: Seconde4
+  m_EditorClassIdentifier: 
+  title: Helllooo
+  description: " Bon il faut d\u2019abord que je sois s\xFBre que t\u2019es bien
+    qui tu dis \xEAtre. Il y a un mot de passe sur la lettre du capitaine. Donne-le-moi
+    et l\u2019indice est \xE0 toi."
+  choices:
+  - {fileID: 11400000, guid: db74472fc439ab24f8b0658a68a47d4a, type: 2}
+  - {fileID: 11400000, guid: 6423ee85f2206c74c88fedc1525b5665, type: 2}
+  - {fileID: 11400000, guid: e2a77495f1e73344f80743010392719d, type: 2}
+  isKeyDialog: 1
+  isEndDialog: 0
+  characterIndex: 0
+  id: 1

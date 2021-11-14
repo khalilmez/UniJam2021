@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
-  m_Name: Poete4
+  m_Name: Seconde1
   m_EditorClassIdentifier: 
-  title: tonneau
-  description: Continuer
+  title: bla bla bla
+  description: "Alors c\u2019est toi le rejeton du capitaine ? J\u2019vois la ressemblance.
+    Le capitaine m\u2019a laiss\xE9 un indice pour toi, donc je peux t\u2019aider
+    \xE0 trouver la carte au tr\xE9sor"
   choices:
-  - {fileID: 11400000, guid: 5e21e94c30a80934f9c12a6cb3cf41d8, type: 2}
+  - {fileID: 11400000, guid: 36a4c547afe4a9a468ded30898a4af83, type: 2}
+  - {fileID: 11400000, guid: 8c409c07a612f514592a73076f6f5527, type: 2}
   isKeyDialog: 0
+  isEndDialog: 0
   characterIndex: 0
   id: 0

@@ -8,12 +8,17 @@ public class DialogDisplay : MonoBehaviour
 {
     public static DialogDisplay Instance { get; private set; }
     [SerializeField]
-    private CanvasGroup canvas;
+    private CanvasGroup mainCanvas;
+    [SerializeField]
+    private CanvasGroup dialogCanvas;
+    [SerializeField]
+    private CanvasGroup choiceCanvas;
+
     public Sprite characterFace;
     public TextMeshProUGUI Title;
     public TextMeshProUGUI description;
     public List<DialogueChoice> choicesList = new List<DialogueChoice>();
-    public bool IsActive => canvas.alpha > 0f;
+    public bool IsActive => mainCanvas.alpha > 0f;
     public Dictionary<string, Choice> choicesDictionary;
 
     private List<Choice> choices;
@@ -30,7 +35,7 @@ public class DialogDisplay : MonoBehaviour
 
     public void Show()
     {
-        //canvas.transform.GetChild(0).GetComponent<Image>().sprite = characterFace;
+        mainCanvas.transform.GetChild(0).GetComponent<Image>().sprite = characterFace;
         description.text = dialogue.description;
         if (dialogue.isKeyDialog)
         {
@@ -74,9 +79,9 @@ public class DialogDisplay : MonoBehaviour
 
             i++;
         }
-        canvas.alpha = 1;
-        canvas.interactable = true;
-        canvas.blocksRaycasts = true;
+        mainCanvas.alpha = 1;
+        mainCanvas.interactable = true;
+        mainCanvas.blocksRaycasts = true;
         description.text = dialogue.description;
     }
 
@@ -89,6 +94,7 @@ public class DialogDisplay : MonoBehaviour
             if (choice.Content.conclusion != null)
             {
                 dialogue = choice.Content.conclusion;
+                HideChoices();
                 Show();
             }
             else
@@ -104,8 +110,8 @@ public class DialogDisplay : MonoBehaviour
 
     public void Close()
     {
-        canvas.interactable = false;
-        canvas.blocksRaycasts = false;
+        mainCanvas.interactable = false;
+        mainCanvas.blocksRaycasts = false;
         StartCoroutine(CloseDialogue());
     }
 
@@ -113,11 +119,34 @@ public class DialogDisplay : MonoBehaviour
     {
         for (float ft = 1f; ft >= 0; ft -= 0.1f)
         {
-            canvas.alpha = canvas.alpha * 0.8f;
+            mainCanvas.alpha = mainCanvas.alpha * 0.8f;
             yield return new WaitForSeconds(.05f);
         }
 
-        canvas.alpha = 0;
+        mainCanvas.alpha = 0;
         yield return null;
     }
+
+    public void ShowChoices()
+    {
+        dialogCanvas.alpha = 0;
+        dialogCanvas.blocksRaycasts = false;
+        dialogCanvas.interactable = false;
+
+        choiceCanvas.alpha = 1;
+        choiceCanvas.blocksRaycasts = true;
+        choiceCanvas.interactable = true;
+    }
+
+    public void HideChoices()
+    {
+        dialogCanvas.alpha = 1;
+        dialogCanvas.blocksRaycasts = true;
+        dialogCanvas.interactable = true;
+
+        choiceCanvas.alpha = 0;
+        choiceCanvas.blocksRaycasts = false;
+        choiceCanvas.interactable = false;
+    }
+
 }

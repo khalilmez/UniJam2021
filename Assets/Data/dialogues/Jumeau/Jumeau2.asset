@@ -16,8 +16,10 @@ MonoBehaviour:
   description: "Tiens voil\xE0 ton indice si t\u2019es si press\xE9. La carte au
     tr\xE9sor se trouve \xE0 c\xF4t\xE9 *4'21.1 16.9.18.1.20.5*."
   choices:
-  - {fileID: 0}
-  isKeyDialog: 0
+  - {fileID: 11400000, guid: 2e312c88356a4e947b2e33774cfac0b9, type: 2}
+  - {fileID: 11400000, guid: e9120593f12902840b7c92f2b7fd6fda, type: 2}
+  - {fileID: 11400000, guid: 8b05959c12cfb034db08cff0f1f2bc10, type: 2}
+  isKeyDialog: 1
   isEndDialog: 0
   characterIndex: 1
-  id: 0
+  id: 1

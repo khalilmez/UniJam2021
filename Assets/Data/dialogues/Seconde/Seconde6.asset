@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a278b2994c53890458aa764e449af3d6, type: 3}
-  m_Name: Poete3
+  m_Name: Seconde6
   m_EditorClassIdentifier: 
-  title: Helllooo
-  description: Enigma
+  title: 
+  description: "Parfait, t'as tout compris. Voil\xE0 ce que je peux te dire sur la
+    carte au tr\xE9sor. Le capitaine ne l\u2019a pas cach\xE9e sur la place du village.
+    Pas besoin de chercher ici."
   choices:
-  - {fileID: 11400000, guid: db74472fc439ab24f8b0658a68a47d4a, type: 2}
-  - {fileID: 11400000, guid: 6423ee85f2206c74c88fedc1525b5665, type: 2}
-  - {fileID: 11400000, guid: e2a77495f1e73344f80743010392719d, type: 2}
-  isKeyDialog: 1
-  isEndDialog: 0
+  - {fileID: 11400000, guid: 49ebcfcf878ce724bbae94135a1ae727, type: 2}
+  isKeyDialog: 0
+  isEndDialog: 1
   characterIndex: 0
-  id: 1
+  id: 0

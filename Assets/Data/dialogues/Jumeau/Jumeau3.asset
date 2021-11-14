@@ -17,7 +17,8 @@ MonoBehaviour:
     indice non-cod\xE9 entre n\u2019importe quelles mains ? Certainement pas entre
     les tiennes !"
   choices:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: a8fe9132ec796344c9a2dfe7aee4d56b, type: 2}
+  - {fileID: 11400000, guid: 256771cee0de5c84e98c3c5e9f666b19, type: 2}
   isKeyDialog: 0
   isEndDialog: 0
   characterIndex: 1
