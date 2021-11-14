@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LogManager : Singleton<LogManager>
@@ -72,7 +73,13 @@ public class LogManager : Singleton<LogManager>
 
    public void Rejouer()
     {
-
+        Destroy(LevelOfSuspicien.Instance.gameObject);
+        Destroy(this.gameObject);
+        SceneManager.LoadScene(0);
+    }
+    public void Quit()
+    {
+        Application.Quit();
     }
 
     public void DisplayLog()

@@ -72,6 +72,10 @@ public class MainCharacterController : MonoBehaviour
         {
             LogManager.Instance.DisplayLog();
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LevelOfSuspicien.Instance.Quit();
+        }
     }
     void FixedUpdate()
     {
