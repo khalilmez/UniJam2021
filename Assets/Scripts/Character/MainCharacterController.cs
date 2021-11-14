@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainCharacterController : MonoBehaviour
 {
     public static MainCharacterController Instance { get; private set; }
-
+    private SpriteRenderer sprite;
     public Dialogue targetDialog;
     public Dialogue TargetDialog {
         get => targetDialog;
@@ -21,6 +21,7 @@ public class MainCharacterController : MonoBehaviour
    
     void Start()
     {
+        sprite = transform.GetChild(0).GetComponent<SpriteRenderer>();
         Instance = this;
         switch (GlobalInformations.s_Direction) {
             case EnumDirection.SOUTH:
@@ -54,6 +55,14 @@ public class MainCharacterController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (Input.GetAxis("HorizontalKey") != 0 || Input.GetAxis("VerticalKey") != 0)
+        {
+            transform.GetChild(0).GetComponent<Animator>().SetBool("isWalking", true);
+        }
+        else
+        {
+            transform.GetChild(0).GetComponent<Animator>().SetBool("isWalking", false);
+        }
         if (Input.GetKeyDown(KeyCode.E) && !DialogDisplay.Instance.IsActive() && targetDialog != null)
         {
             DialogDisplay.Instance.dialogue = this.targetDialog;
@@ -84,7 +93,7 @@ public class MainCharacterController : MonoBehaviour
         Vector3 direction = new Vector3(Input.GetAxis("HorizontalKey"), 0, Input.GetAxis("VerticalKey"));
         Vector3 rightMovement = right * moveSpeed * Time.deltaTime * Input.GetAxis("HorizontalKey");
         Vector3 forwardMovement = forward * moveSpeed * Time.deltaTime * Input.GetAxis("VerticalKey");
-
+        sprite.flipX = (Input.GetAxis("HorizontalKey") < 0);
         _rbPlayer.velocity = rightMovement + forwardMovement;
        
             

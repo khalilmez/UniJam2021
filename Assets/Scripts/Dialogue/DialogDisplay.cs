@@ -99,7 +99,6 @@ public class DialogDisplay : MonoBehaviour
                 GameObject gameObject = GameObject.Find(choice.Content.hint);
                 if(gameObject != null)
                 {
-                    Debug.LogError("YEEEY");
                     gameObject.GetComponent<CanvasGroup>().alpha = 1;
                 }
 

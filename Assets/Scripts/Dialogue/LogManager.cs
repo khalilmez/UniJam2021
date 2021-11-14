@@ -29,10 +29,8 @@ public class LogManager : Singleton<LogManager>
     }
     public void DisplayLog()
     {
-        Debug.Log("Test");
         if (Log == null)
         {
-            Debug.Log("Test1");
             Log = GameObject.Find("Log");
             if(Log != null)
             {
@@ -62,7 +60,6 @@ public class LogManager : Singleton<LogManager>
     }
     public void NextPage()
     {
-        Debug.LogWarning("Hello world");
         if (page < pages.Count - 1)
         {
             pages[page].GetComponent<CanvasGroup>().alpha = 0;

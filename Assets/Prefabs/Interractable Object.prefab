@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -26, y: 0}
+  m_AnchoredPosition: {x: -41, y: 160}
   m_SizeDelta: {x: 381.02, y: 136.41}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &8377726326832281499
@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Click E to interact with
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 148c91c96aa1c3a4eb09054eebc1bb80, type: 2}
+  m_sharedMaterial: {fileID: 8281020037589368077, guid: 148c91c96aa1c3a4eb09054eebc1bb80, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -430,4 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 512d390193a6f9f42b739095fe801578, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 35448b86bc0383d4fbc2ed706bdd2f8b, type: 2}
+  characterId: 0
+  dialogueStart: {fileID: 0}
+  dialogStartList: []
+  characterFace: {fileID: 0}

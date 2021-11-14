@@ -11,9 +11,8 @@ public class Interactable : MonoBehaviour
     private CanvasGroup canvas;
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && transform.parent.GetComponent<CharacterDialog>().dialogueStart !=null)
         {
-            
             RaycastHit raycastHit;
             if (Physics.Raycast(transform.position, Vector3.Normalize(other.transform.position - transform.position) * 3, out raycastHit))
             {
@@ -21,6 +20,10 @@ public class Interactable : MonoBehaviour
             }
             DialogDisplay.Instance.characterFace = this.transform.parent.gameObject.GetComponent<CharacterDialog>().characterFace;
             MainCharacterController.Instance.TargetDialog = this.transform.parent.gameObject.GetComponent<CharacterDialog>().dialogueStart;
+        }
+        if(transform.parent.GetComponent<CharacterDialog>().dialogueStart == null)
+        {
+            canvas.alpha = 0;
         }
     }
     private void OnTriggerExit(Collider other)
