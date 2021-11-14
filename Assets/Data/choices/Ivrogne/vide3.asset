@@ -15,3 +15,4 @@ MonoBehaviour:
   text: ...
   conclusion: {fileID: 11400000, guid: 3ff8b4801b796b142a4c3ac765285c86, type: 2}
   suspicion: 0
+  hint: 

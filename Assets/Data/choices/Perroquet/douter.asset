@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85d3d8cee80fec54ba63b412dd3ab3d8, type: 3}
-  m_Name: libre
+  m_Name: douter
   m_EditorClassIdentifier: 
-  text: "Un moyen d\u2019\xEAtre libre."
-  conclusion: {fileID: 11400000, guid: 645ef87590808fd47b9d73085debd90b, type: 2}
+  text: "J\u2019aurais d\xFB m\u2019en douter."
+  conclusion: {fileID: 0}
   suspicion: 0
-  hint: "Le Po\xE8te"
+  hint: 
