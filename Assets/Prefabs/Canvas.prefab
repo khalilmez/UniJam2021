@@ -2855,6 +2855,7 @@ MonoBehaviour:
   pages: []
   page: 0
   logCanvas: {fileID: 0}
+  WinMusic: {fileID: 8300000, guid: 53826506c44334044ba94c8e874a69ea, type: 3}
   WinMenu: {fileID: 0}
   LoseMenu: {fileID: 0}
 --- !u!1 &8937890099348933817

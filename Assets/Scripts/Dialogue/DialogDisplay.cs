@@ -93,6 +93,10 @@ public class DialogDisplay : MonoBehaviour
     {
         if (choice.Content != null)
         {
+            if (choice.Content.win)
+            {
+                LevelOfSuspicien.Instance.Win = true;
+            }
             LevelOfSuspicien.Instance.AddLevelOfSuspencience(choice.Content.suspicion);
             if(choice.Content.hint != "")
             {

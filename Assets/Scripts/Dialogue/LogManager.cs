@@ -14,6 +14,8 @@ public class LogManager : Singleton<LogManager>
     private int page = 0;
     [SerializeField]
     private CanvasGroup logCanvas;
+    [SerializeField]
+    private AudioClip WinMusic;
 
     [SerializeField]
     private CanvasGroup WinMenu;
@@ -55,6 +57,8 @@ public class LogManager : Singleton<LogManager>
 
         if (LevelOfSuspicien.Instance.Win)
         {
+            LevelOfSuspicien.Instance.GetComponent<AudioSource>().clip = WinMusic;
+
             if (WinMenu == null)
             {
                 WinMenu = GameObject.Find("LoseMenu").GetComponent<CanvasGroup>();
