@@ -657,8 +657,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c29c077b8f218246a51f9b6d4479c16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextAreaNumber: 1
-  direction: 0
+  nextAreaNumber: 7
+  direction: 1
 --- !u!1 &516829630
 GameObject:
   m_ObjectHideFlags: 0
